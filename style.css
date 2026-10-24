@@ -385,6 +385,13 @@ p+p{margin-top:16px}
 .chips span:hover{background:var(--coffee);color:var(--almond)}
 @media (max-width:900px){.skills-grid{grid-template-columns:1fr;gap:40px}}
 
+/* Kaj prinašam: seznam ponudbe */
+.offer-list{list-style:none;display:grid;gap:12px;padding-top:8px}
+.offer-list li{display:flex;align-items:center;gap:16px;padding:18px 22px;border-radius:var(--radius);background:var(--oak);font-size:1.08rem;font-weight:600;transition:background .3s,transform .4s var(--ease)}
+.offer-list li:hover{background:var(--tan);transform:translateX(6px)}
+.tick{flex:none;width:34px;height:34px;border-radius:50%;background:var(--coffee);position:relative}
+.tick::after{content:"";position:absolute;left:12px;top:8px;width:8px;height:14px;border:solid var(--almond);border-width:0 3px 3px 0;transform:rotate(45deg)}
+
 /* ===== Kontakt ===== */
 .contact{padding:150px 0 120px;text-align:center}
 .contact-inner{position:relative;display:flex;flex-direction:column;align-items:center}
