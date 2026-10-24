@@ -69,7 +69,7 @@ const links = $$('.nav-links a[href^="#"]');
 let chapter = '';
 const chapterOf = new Map();
 $$('main section[id]').forEach(s => {
-  if (s.classList.contains('chapter') || s.id === 'kontakt' || s.id === 'domov') chapter = s.id;
+  if (s.classList.contains('chapter') || s.id === 'kontakt' || s.id === 'domov' || s.id === 'delo') chapter = s.id;
   chapterOf.set(s, chapter);
 });
 const spy = new IntersectionObserver(entries => {

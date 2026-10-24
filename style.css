@@ -125,6 +125,9 @@ a{color:inherit;text-decoration:none}
 .h2 em,.journey em{font-style:normal;color:var(--copper)}
 .lead{font-size:1.12rem;max-width:640px;margin:0 auto 60px}
 p+p{margin-top:16px}
+.lead.has-note{margin-bottom:10px}
+.lead-note{font-size:.88rem;font-style:italic;color:var(--copper);max-width:640px;margin:0 auto 56px}
+.lead-note.center{text-align:center}
 @media (max-width:700px){.section{padding:90px 0}}
 
 /* ===== Poglavja: O meni, Fitnes, Delo ===== */
@@ -385,7 +388,8 @@ p+p{margin-top:16px}
 /* ===== Kontakt ===== */
 .contact{padding:150px 0 120px;text-align:center}
 .contact-inner{position:relative;display:flex;flex-direction:column;align-items:center}
-.contact-title{font-family:var(--display);font-weight:400;font-size:clamp(4.4rem,14vw,11.5rem);line-height:.86;margin-bottom:26px}
+.contact .eyebrow{margin-bottom:40px}
+.contact-title{padding-top:.1em;font-family:var(--display);font-weight:400;font-size:clamp(4.4rem,14vw,11.5rem);line-height:.86;margin-bottom:26px}
 .contact-title .outline{color:var(--copper)}
 .contact .lead{margin-bottom:36px}
 .contact-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:60px;width:100%}

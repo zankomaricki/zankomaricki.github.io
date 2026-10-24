@@ -4,10 +4,10 @@ window.EN = {
   'O meni': 'About me', 'Fitnes': 'Fitness', 'Delo': 'Work', 'Kontakt': 'Contact',
   'Murska Sobota · Slovenija': 'Murska Sobota · Slovenia',
   'Sem': "I'm a",
-  'Disciplina iz telovadnice, znanje iz predavalnice. Združujem šport, trening in fizioterapijo, da bi ljudem pomagal gibati se bolje, močneje in brez bolečin.':
-    'Discipline from the gym, knowledge from the lecture hall. I combine sport, training and physiotherapy to help people move better, stronger and without pain.',
+  'Šport in konstantna želja po izboljšanju samega sebe sta moja največja strast v življenju. Ko sem videl, da imam dovolj znanja in izkušenj, sem se odločil, da to delim s svetom in drugim poskušam izboljšati njihov življenjski slog, tako fizično kot psihično.':
+    'Sport and a constant drive to improve myself are the biggest passions of my life. Once I saw that I had enough knowledge and experience, I decided to share it with the world and help others improve their lifestyle, both physically and mentally.',
   'Spoznaj me': 'Get to know me', 'Stopi v stik': 'Get in touch',
-  'priprave na tekmo': 'contest prep', 'Fizioterapija': 'Physiotherapy',
+  'priprave na tekmo': 'contest prep', 'atlet': 'athlete', 'Fizioterapija': 'Physiotherapy',
   'Disciplina': 'Discipline', 'Vztrajnost': 'Persistence', 'Moč': 'Strength', 'Gibanje': 'Movement',
   'Rehabilitacija': 'Rehabilitation', 'Zdrav življenjski slog': 'Healthy lifestyle',
 
@@ -19,20 +19,21 @@ window.EN = {
   'Vztrajen, dosleden': 'Persistent, consistent', 'in': 'and', 'vedno v gibanju': 'always on the move',
   'Sem Žan Komaricki, star 19 let, iz Murske Sobote. Sem izkušen športnik in maturirani tehnik računalništva, zato doslednost, konsistentnost, disciplina in odgovoren pristop do dela zame niso težava.':
     "I'm Žan Komaricki, 19, from Murska Sobota. I'm an experienced athlete and a certified computer technician, so consistency, discipline and a responsible approach to work come naturally to me.",
-  'Sem komunikativna oseba, ki se nove stvari zelo hitro nauči v praksi. Trenutno študiram fizioterapijo, kmalu pa bom opravil še tečaj za maserja in osebnega trenerja.':
-    "I'm a communicative person who learns new things quickly by doing. I'm currently studying physiotherapy and will soon complete courses to become a massage therapist and personal trainer.",
+  'Sem komunikativna oseba, ki se uči iz izzivov in si z novimi izkušnjami olajša svojo pot. Zato mi dovoli, da tudi tebi olajšam pot s konkretnim spremstvom in pristopom do tvojih ciljev!':
+    "I'm a communicative person who learns from challenges and uses every new experience to make my path easier. So let me make your path easier too, with hands-on guidance and a clear approach to your goals!",
   'let': 'years', 'Rojen 31. 3. 2007': 'Born 31 Mar 2007', 'Višina': 'Height', 'Teža': 'Weight',
   'O meni · Izobrazba': 'About me · Education', 'Kaj se': "What I'm", 'učim': 'learning',
-  'Fizioterapija mi daje razumevanje telesa: kako deluje, zakaj boli in kako mu pomagati, da se giblje brez bolečin. Zanimajo me predvsem rehabilitacija in gibanje.':
-    'Physiotherapy teaches me how the body works, why it hurts and how to help it move without pain. I am most interested in rehabilitation and movement.',
+  'Fizioterapija mi daje temeljno znanje o anatomiji in biomehaniki naših teles. S svojim novim znanjem lahko lažje in bolje postavim najine temelje in ti pomagam tudi pri najzahtevnejših izzivih.':
+    'Physiotherapy gives me a solid foundation in the anatomy and biomechanics of our bodies. With this knowledge I can build our foundations more easily and more effectively, and help you with even the toughest challenges.',
   'Trenutno · VI./2, visokošolski strokovni program': 'Current · Professional higher education programme',
   'Študent fizioterapije': 'Physiotherapy student',
   'Izredni dodiplomski program Fizioterapija, 1. bolonjska stopnja.': 'Part-time undergraduate Physiotherapy programme, first Bologna cycle.',
   'V pripravi · Slovenija': 'Upcoming · Slovenia', 'Maser in osebni trener': 'Massage therapist and personal trainer',
-  'Tečaj': 'Course', 'Usposabljanje za klasično masažo in vodenje vadbe.': 'Training in classic massage and leading workouts.',
+  'Tečaj': 'Course', 'Kmalu se želim udeležiti tečaja za maserja, ki mi bo prinesel znanje za boljšo rehabilitacijo in veliko več ponudb za vas!': "I plan to take a massage therapy course soon, which will give me the knowledge for better rehabilitation and many more services for you!",
   '2026 · V., dokončana štiriletna srednja šola': '2026 · Four-year secondary school, completed',
   'Maturirani tehnik računalništva': 'Computer technician (Matura)',
-  'Leta 2026 sem maturiral na Srednji poklicni in tehniški šoli Murska Sobota.': 'I passed the Matura exam in 2026 at the Secondary Vocational and Technical School Murska Sobota.',
+  'Na svoji akademski poti sem opravil tudi strokovno šolanje za računalniškega tehnika. To mi pomaga pri profesionalnem pregledu vaših podatkov, vam pa zagotavlja datoteke, izdelane na profesionalni ravni.':
+    'Along my academic path I also completed vocational training as a computer technician. It helps me review your data professionally and ensures the files you receive are made to a professional standard.',
   'O meni · Jeziki in interesi': 'About me · Languages and interests', 'Kako se': 'How I', 'sporazumevam': 'communicate',
   'Slovenščina': 'Slovenian', 'Raven mojstrstva': 'Proficient', 'Angleščina': 'English', 'Višja raven': 'Upper intermediate',
   'Nemščina': 'German', 'Vstopna raven, učim se': 'Beginner, learning',
@@ -40,25 +41,34 @@ window.EN = {
   'Narava in planine': 'Nature and mountains', 'Umetna inteligenca': 'Artificial intelligence', 'Učenje jezikov': 'Learning languages',
 
   // Fitnes
-  'Bodybuilding, priprave na tekmo, načrt treninga in prehrana.': 'Bodybuilding, contest prep, training plan and nutrition.',
+  'Moja pot, moje izkušnje in moja dejanja. Pot, ki me je pripeljala do tega, da lahko pomagam tudi drugim, je predstavljena in redno posodobljena na tej spletni strani!':
+    'My journey, my experience and my actions. The path that brought me to the point where I can help others is presented and regularly updated on this website!',
   'Priprave': 'Prep', 'Načrt': 'Plan', 'Videi': 'Videos', 'Galerija': 'Gallery',
   'Fitnes · Priprave': 'Fitness · Prep', 'Priprave na': 'Preparing for a', 'bodybuilding tekmo': 'bodybuilding show',
-  'S športom se ukvarjam vse življenje. Zdaj sem v pripravah na svojo bodybuilding tekmo, kjer vsak obrok, vsak set in vsaka ura spanja služijo enemu cilju: na oder stopiti v najboljši formi do zdaj.':
-    "I've done sport my whole life. Now I'm preparing for my bodybuilding show, where every meal, every set and every hour of sleep serves one goal: stepping on stage in the best shape of my life.",
-  'Trening': 'Training', 'Strukturiran načrt, progresivna obremenitev in tehnika pred težo.': 'A structured plan, progressive overload and technique before weight.',
-  'Natančno doziranje makrohranil in doslednost iz dneva v dan.': 'Precise macros and consistency day after day.',
-  'Regeneracija': 'Recovery', 'Spanje, mobilnost in znanje iz fizioterapije za zdravo telo.': 'Sleep, mobility and physiotherapy know-how for a healthy body.',
-  'Poziranje': 'Posing', 'Ure vaje pred ogledalom, da se trud pokaže tudi na odru.': 'Hours of practice in the mirror so the work shows on stage.',
+  'S športom se ukvarjam vse svoje življenje. Od športov z žogo sem prešel na kalisteniko, nato na powerlifting in končal kot bodybuilder, ki si v prihodnosti želi hibridnega atletskega življenja.':
+    "I've done sport my whole life. I went from ball sports to calisthenics, then to powerlifting, and ended up as a bodybuilder who wants to live a hybrid athlete's life in the future.",
+  'Trening': 'Training',
+  'Strukturiran trening in vaje znam prilagoditi tebi in vsakemu, ki ga srečam! Za vsakega obstaja slog treninga, ki mu bo ustrezal.':
+    "I can tailor structured training and exercises to you and everyone I meet! There's a training style that suits everyone.",
+  'Še pred študijem fizioterapije sem se osebno lotil dietetike. Znam pripraviti jedilnike, prilagojene vsakemu posamezniku.':
+    'Even before studying physiotherapy, I took up dietetics myself. I can prepare meal plans tailored to each individual.',
+  'Regeneracija': 'Recovery',
+  'Regeneracija je najpomembnejša. Strukturiran načrt dneva vsakemu omogoča največ napredka. Spanje, mobilnost in pravilna izvedba vaj naju pripeljejo do izgleda in počutja, ki si ju zaslužiš!':
+    'Recovery matters most. A structured daily plan lets everyone make the most progress. Sleep, mobility and correct exercise technique will get us to the look and feel you deserve!',
+  'Poziranje': 'Posing', 'Mentaliteta': 'Mindset',
+  'Eden največjih izzivov v naših življenjih sta naša mentaliteta in mentalno zdravje. Kot nekdo, ki je v življenju šel skozi veliko, ti lahko samozavestno pomagam, ne le kot trener, ampak tudi s kolegialnim pristopom v najinem sodelovanju.':
+    "One of the biggest challenges in our lives is our mindset and mental health. As someone who has been through a lot, I can confidently help you, not only as a coach but also as a teammate in our work together.",
   'Zadaj': 'Back', 'Spredaj': 'Front',
   'Napredek': 'Progress', 'Fitnes · Napredek': 'Fitness · Progress', 'Od 2025': 'From 2025', 'do danes': 'to today',
-  'Leva stran je september 2025, desna oktober 2026. Povleci drsnik in poglej, kaj naredi dobro leto doslednega treninga, prehrane in počitka.':
-    'The left side is September 2025, the right is October 2026. Drag the slider to see what a good year of consistent training, nutrition and rest can do.',
+  'Ta slika dokazuje, da se lahko spremeniš tudi ti! To je moja enoletna transformacija: lani 110 kg, danes 77 kg, z več mišične mase kot kadar koli prej v življenju.':
+    'This picture proves that you can change too! This is my one-year transformation: 110 kg last year, 77 kg today, with more muscle mass than ever before in my life.',
   'Fitnes · Coaching': 'Fitness · Coaching', 'Rezultat': 'Client', 'stranke': 'result',
   '15-tedenski deficit brez lakote! Izgubil skoraj 10 kg.': 'A 15-week cut without hunger! Lost almost 10 kg.',
   'tednov': 'weeks', 'skoraj': 'almost', 'Prej': 'Before', 'Potem': 'After',
   'Sep 2025': 'Sep 2025', 'Okt 2026': 'Oct 2026', 'začetek': 'start', 'danes': 'today',
   'Fitnes · Načrt 2026 – 2027': 'Fitness · Plan 2026 – 2027', 'Pot do': 'Road to the', 'odra': 'stage',
   'Vsak teden je načrtovan vnaprej: faza, kalorije, koraki in tedenski check-in s trenerjem.': 'Every week is planned ahead: phase, calories, steps and a weekly check-in with my coach.',
+  'Sodelovanje z mojim trenerjem mi daje temelje in dodano vrednost za vas!': 'Working with my own coach gives me a solid foundation and added value for you!',
   'Do konca priprav po načrtu': 'Until the end of prep', '(17. 10. 2027)': '(17 Oct 2027)',
   'dni': 'days', 'ur': 'hours', 'minut': 'minutes', 'sekund': 'seconds', 'Danes': 'Today',
   'feb 2026': 'Feb 2026', 'jan 2027': 'Jan 2027', 'okt 2027': 'Oct 2027',
@@ -74,13 +84,14 @@ window.EN = {
   '11.000 TD · 13.000 RD': '11,000 TD · 13,000 RD', 'Zadnja povprečna teža': 'Latest average weight',
   '· tedenski check-in ob nedeljah': '· weekly check-in on Sundays',
   'Fitnes · Prehrana': 'Fitness · Nutrition', 'Kaj je na': "What's on my", 'krožniku': 'plate',
-  'Moja jedilnika iz trenutne faze. Vsak gram je stehtan, vsak obrok ima svoj namen.': 'My meal plans from the current phase. Every gram is weighed, every meal has a purpose.',
+  'Če sodelujeva, ti obljubim, da boš shujšal brez stradanja! Dobra dieta je sistem, prilagojen tebi. Dovoli mi, da ti pomagam!':
+    "If we work together, I promise you'll lose weight without starving! A good diet is a system tailored to you. Let me help you!",
   'Trening dan': 'Training day', 'Rest dan': 'Rest day', 'Ogljikovi hidrati': 'Carbohydrates', 'Beljakovine': 'Protein', 'Maščobe': 'Fat',
   'Fitnes · Videi': 'Fitness · Videos', 'V': 'In', 'gibanju': 'motion',
   'Fitnes · Galerija': 'Fitness · Gallery', 'Trud, ki se vidi': 'Work that shows', 'Vse': 'All', 'Izven telovadnice': 'Outside the gym',
 
   // Delo
-  'Delovne izkušnje in spretnosti, ki jih prinašam.': 'Work experience and the skills I bring.',
+  'Spretnosti, ki jih prinašam.': 'The skills I bring.',
   'Izkušnje': 'Experience', 'Spretnosti': 'Skills', 'Delo · Izkušnje': 'Work · Experience', 'Kje sem': 'Where I', 'se kalil': 'learned the ropes',
   'Delam že od 15. leta. Največ izkušenj imam v gostinstvu in hotelirstvu, saj sem v Avstriji delal kot sobar in receptor. Angleščino obvladam na ravni B2, nemščino razumem in se jo učim tudi govoriti.':
     "I've been working since I was 15. Most of my experience is in hospitality, as I worked in Austria as a housekeeper and receptionist. I speak English at B2 level, understand German and am learning to speak it.",
